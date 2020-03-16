@@ -2,6 +2,9 @@ autoUpdate:
   enabled: true
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
+bucketrepo:
+  cache:
+    baseDir: '/'
 cluster:
   chartRepository: http://bucketrepo/bucketrepo/charts/
   clusterName: cldntventr-dev
